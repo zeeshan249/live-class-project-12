@@ -201,7 +201,7 @@ input[type="submit"]{
 }
 .care-easy{
   margin-top: 0px;
-  height: 490vh;
+  height: 120vh;
   background-color: #F8F8F8;
 }
 .care-easy h1{
@@ -290,7 +290,7 @@ input[type="submit"]{
  .third-section
  {
   display: flex;
-  height:100vh;
+ 
 
  margin-left: 130px;
  margin-top: 160px;
@@ -327,4 +327,25 @@ input[type="submit"]{
   line-height: 21px;
   font-weight: normal;
   
+}
+
+
+.flexdiv{
+  display: flex;
+  height: 60vh;
+  margin-top: -60px;
+  justify-content: center;
+  align-items: center;
+  margin-left: -60px;
+}
+.flexdiv h3{
+  font-size: 34px;
+  margin-right: 380px;
+  
+}
+.flexdiv h4{
+  color:#758283;
+  font-size:18px;
+  line-height: 29px;
+  font-weight: normal;
 }
