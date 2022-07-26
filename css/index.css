@@ -276,7 +276,7 @@ input[type="submit"]{
   
  }
  .left-section1 h4{
-   margin-top: 28px;
+   margin-top: 18px;
    width: 80vh;
    color:#758283;
    font-size:18px;
@@ -284,10 +284,13 @@ input[type="submit"]{
    font-weight: normal;
    
  }
+ .left-section1 h3{
+  margin-top: -208px;
+ }
  .third-section
  {
   display: flex;
-
+  height:100vh;
 
  margin-left: 130px;
  margin-top: 160px;
@@ -299,6 +302,22 @@ input[type="submit"]{
  .first-section2{
   display:flex;
  }
- .right-section2{
-  margin-top: -190px;
+ .right-section3{
+  margin-top: -380px;
  }
+
+
+ .left-section2 h3{
+  margin-top: 128px;
+  font-size: 40px;
+ margin-top: -78px;
+}
+ .left-section2 h4{
+  margin-top: 38px;
+  width: 80vh;
+  color:#758283;
+  font-size:18px;
+  line-height: 21px;
+  font-weight: normal;
+  
+}
