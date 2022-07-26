@@ -98,10 +98,11 @@ body{
     height: 53px;
     width: 400px;
 }
+
 .textinput i{
     position: absolute;
     top:447px;
-    left:820px;
+    left:800px;
    z-index: 6;
   
   
@@ -109,7 +110,7 @@ body{
  .submit{
     position: absolute;
     top:392px;
-    left:1070px;
+    left:1052px;
    z-index: 6;
   
   
@@ -199,7 +200,105 @@ input[type="submit"]{
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 .care-easy{
-  margin-top: 5px;
-  height: 60vh;
-  background-color: #1FAA59;
+  margin-top: 0px;
+  height: 490vh;
+  background-color: #F8F8F8;
 }
+.care-easy h1{
+
+    font-size: 40px;
+    color: #0e0707;
+    text-align: center;
+    margin-left: 70px;
+    padding-top: 175px;
+    font-weight: bold;
+
+}
+.first-section{
+  display: flex;
+
+ height:100vh;
+ margin-left: 130px;
+ margin-top: 160px;
+
+}
+.left-section h3{
+ width: 80vh;
+ margin-left: 50px;
+ font-size: 40px;
+ 
+}
+.left-section h4{
+  margin-top: 28px;
+  width: 80vh;
+  color:#758283;
+  font-size:18px;
+  line-height: 21px;
+  font-weight: normal;
+  margin-left: 50px;
+}
+.choose-package-btn{
+  margin-left: 45px;
+  margin-top: 55px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  
+  background-color: #1FAA59;
+  padding: 13px 57px 13px 57px;
+  border: 2px solid #1FAA59;
+  font-weight: normal;
+  text-transform: uppercase;
+  box-shadow:  #1FAA59;
+  color:#fff;
+}
+.right-section{
+  margin-top: -70px;
+  margin-right: 30px;
+ width:300px;
+}
+.second-section{
+  display: flex;
+  flex-direction: row-reverse;
+ height:100vh;
+ margin-left: 130px;
+ margin-top: 160px;
+
+}
+.right-section2{
+  margin-top: -220px;
+  margin-right: 200px;
+}
+.left-section1 h3{
+  width: 80vh;
+  margin-right: 0px;
+  margin-top: -150px;
+  font-size: 40px;
+  
+ }
+ .left-section1 h4{
+   margin-top: 28px;
+   width: 80vh;
+   color:#758283;
+   font-size:18px;
+   line-height: 21px;
+   font-weight: normal;
+   
+ }
+ .third-section
+ {
+  display: flex;
+
+
+ margin-left: 130px;
+ margin-top: 160px;
+ }
+ .left-section2{
+  margin-top: -220px;
+  margin-right: 200px;
+ }
+ .first-section2{
+  display:flex;
+ }
+ .right-section2{
+  margin-top: -190px;
+ }
