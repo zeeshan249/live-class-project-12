@@ -298,12 +298,19 @@ input[type="submit"]{
  .left-section2{
   margin-top: -220px;
   margin-right: 200px;
+ 
+  height: 30vh;
  }
  .first-section2{
   display:flex;
  }
  .right-section3{
+
+ 
   margin-top: -380px;
+  margin-left: -120px;
+ 
+  height: 70vh;
  }
 
 
