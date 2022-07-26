@@ -331,6 +331,7 @@ input[type="submit"]{
 
 
 .flexdiv{
+
   display: flex;
   height: 60vh;
   margin-top: -60px;
@@ -348,4 +349,47 @@ input[type="submit"]{
   font-size:18px;
   line-height: 29px;
   font-weight: normal;
+}
+.container-carousel{
+  width: 100%;
+  margin-left: 40px;
+  height: 80vh;
+  display:flex;
+  justify-content: center;
+ 
+ 
+}
+.carousel{
+  margin-top: 20px;
+  
+  margin-right: 100px;
+}
+.carousel h5{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.carousel h4{
+  font-size: 16px;
+  color:#758283;
+  font-weight: normal;
+  margin-top: 29px;
+}
+.see-more{
+  display: flex;
+  justify-content: center;
+ 
+}
+.see-more button{
+  margin-left: 15px;
+  margin-top: -30px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  
+  background-color: #1FAA59;
+  padding: 13px 29px 13px 29px;
+  border: 2px solid #1FAA59;
+  font-weight: normal;
+  text-transform: uppercase;
+  box-shadow:  #1FAA59;
+  color:#fff;
 }
