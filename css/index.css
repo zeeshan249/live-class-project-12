@@ -216,7 +216,7 @@ input[type="submit"]{
 }
 .first-section{
   display: flex;
-
+  background-color:  #F8F8F8;
  height:100vh;
  margin-left: 130px;
  margin-top: 160px;
@@ -257,6 +257,7 @@ input[type="submit"]{
  width:300px;
 }
 .second-section{
+ background-color:  #F8F8F8;
   display: flex;
   flex-direction: row-reverse;
  height:100vh;
