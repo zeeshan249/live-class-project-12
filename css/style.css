@@ -403,9 +403,12 @@ footer{
     margin-left: 80px;
   }
   
-  
+  .media-icons{
+    display:flex;
+    justify-content: center;
+  }
   .media-icons a{
-    margin-right: 60px;
+    margin-right: 10px;
     text-align: center;
   
   }
@@ -575,6 +578,23 @@ footer{
         width: 300px;
     }
 
-
+    .top{
+     flex-direction: column;
+     margin-right: 50px;
+    }
+    .media-icons{
+        margin-left: 120px;
+    }
+    .media-icons a{
+        
+        text-align: center;
+      
+      }
+      .link-boxes{
+      flex-direction: column;
+      }
+      footer{
+      height: 200vh;
+      }
 
 }
